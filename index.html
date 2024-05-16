@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>TRestauranT</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container_content">
+          <h1 class="header__logo">TRestauranT</h1>
+          <img src="./images/logo.png" alt="logo" width="50px" height="50px" />
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero__title">Добро пожаловать в наш ресторан!</h2>
+        <p class="hero__description">
+          Наши блюда приготовлены с любовью и из лучших ингредиентов.
+        </p>
+        <div class="order-table">
+          <img
+            src="./images/table-pic.jpg"
+            alt="table-pic"
+            class="table-pic"
+          />
+          <button class="btn" onclick="reservation()">Забронировать столик</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+        <h2 class="section__title">Наше меню</h2>
+        <div class="container_menus">
+        <div class="menu__item">
+          <h3>Стейк из говядины</h3>
+          <p>
+            Сочный стейк из натуральной говядины, подается с картофельными
+            дольками и свежими овощами.
+          </p>
+          <span class="menu__price">$25</span>
+        </div>
+        <div class="menu__item">
+          <h3>Паста Карбонара</h3>
+          <p>
+            Итальянская паста приготовленная по традиционному рецепту с беконом,
+            сливочным соусом и пармезаном.
+          </p>
+          <span class="menu__price">$18</span>
+        </div>
+        <div class="menu__item">
+          <h3>Суп куриный</h3>
+          <p>
+            Cуп из курицы, сваренной на медленном огне в воде
+          </p>
+          <span class="menu__price">$10</span>
+        </div>
+        <div class="menu__item">
+          <h3>Пельмени</h3>
+          <p>
+            Небольшие кусочки теста, начиненные мясом или рыбой
+          </p>
+          <span class="menu__price">$15</span>
+        </div>
+        <div class="menu__item">
+          <h3>Лобстер Термидор</h3>
+          <p>
+            Нежное мясо лобстера в сливочном соусе, запеченное с сыром и подается с жареным картофелем.
+          </p>
+          <span class="menu__price">$35</span>
+        </div>
+        <div class="menu__item">
+          <h3>Салат Цезарь с креветками</h3>
+          <p>
+            Свежий салат Цезарь с добавлением сочных креветок, хрустящих крутонов и ароматного соуса.
+          </p>
+          <span class="menu__price">$22</span>
+        </div>
+        <div class="menu__item">
+          <h3>Ризотто с грибами</h3>
+          <p>
+            Итальянский ризотто, приготовленный с добавлением ароматных грибов, пармезана и трав.
+          </p>
+          <span class="menu__price">$20</span>
+        </div>
+        <div class="menu__item">
+          <h3>Торт Тирамису</h3>
+          <p>
+            Классический итальянский десерт с нежным кремом на основе маскарпоне, прослоенный кофейными бисквитами.
+          </p>
+          <span class="menu__price">$12</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2 class="section__title">О нас</h2>
+        <p class="about__description">
+          Мы - ресторан TRestauranT, стремящийся предложить нашим гостям незабываемый опыт, сочетая в себе изысканность блюд и уютную атмосферу.
+        </p>
+        <p class="about__description">
+          Наша команда талантливых поваров готова удивить вас своими кулинарными шедеврами, приготовленными из отборных ингредиентов.
+        </p>
+        <p class="about__description">
+          Мы гордимся своим обслуживанием и стремимся сделать каждое ваше посещение незабываемым.
+        </p>
+        <h3 class="about__subtitle">Наши принципы:</h3>
+        <ul class="about__principles">
+          <li><span class="brown">Качество</span> - мы готовим только из свежих и качественных продуктов, чтобы каждое блюдо приносило удовольствие.</li>
+          <li><span class="brown">Гостеприимство</span> - каждый гость в нашем ресторане - член нашей большой семьи. Мы стараемся создать атмосферу тепла и радушия.</li>
+          <li><span class="brown">Творчество</span> - наша команда постоянно экспериментирует с ингредиентами и рецептами, чтобы удивлять вас новыми вкусовыми сочетаниями.</li>
+          <li><span class="brown">Ответственность</span> - мы заботимся о качестве обслуживания и безопасности наших гостей, соблюдая все стандарты и правила.</li>
+        </ul>
+        <p class="about__description">
+          Мы приглашаем вас окунуться в мир изысканной кухни и приятной атмосферы в ресторане TRestauranT.
+        </p>
+      </div>
+    </section>
+    
+
+    <footer>
+      <div class="container">
+        <p class="footer__copyright">© 2024 TRestauranT. Все права защищены.</p>
+      </div>
+    </footer>
+    
+  </body>
+  <script>
+    function reservation() {
+      let time = prompt("Введите время на которое вы хотите забронировать столик (образец - 00:00)");
+      if (time.match(/^[0-2][0-3]:[0-5][0-9]$/)){
+        alert("Столик забронирован!");
+      }
+      else {
+        alert("Вы ввели время не по образцу")
+      }
+      
+    }
+  </script>
+</html>
